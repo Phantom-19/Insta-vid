@@ -1,4 +1,4 @@
-# `Insta_vid : `
+# `Insta-vid : `
 ```Ce script permet de telecharger des videos, des images et aussi votre photo de profil  depuis votre compte instagram.```
 <p align="left">
 <a href="#"><img title="Made in Ivory Coast" src="https://img.shields.io/badge/MADE%20IN-IVORY COAST-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
