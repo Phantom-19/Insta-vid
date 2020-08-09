@@ -11,7 +11,6 @@ import os
 def cls():
     os.system('clear')
 ####################################################################################################
-raw_input = input
 ####################################################################################################
 # -Importation des modules-#
 try:
@@ -128,7 +127,7 @@ def Securiter():
 		    verifie()			
 	        else:
                     print ("\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;93mMot de passe incorrect!!")
-                    os.system('xdg-open https://www.youtube.com/c/FASTERAXEL?sub_confirmation=1')')
+                    os.system('xdg-open https://www.youtube.com/c/FASTERAXEL?sub_confirmation=1')
 	            Securiter()
             else:
                  print ("\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;94mNom d'utilisateur incorrect!!")
