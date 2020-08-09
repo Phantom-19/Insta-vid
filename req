@@ -17,7 +17,7 @@ apt-get install cowsay
 echo ""
 echo "$(tput setaf 14)Installation Termminer ^^ "
 echo " "
-echo "$(tput sgr 0) Maintenant l'nstallation deSudo[root] ... "
+echo "$(tput sgr 0) Maintenant l'installation de Sudo[root] ... "
 git clone https://gitlab.com/Faxel/sudo
 cd sudo
 echo "$(tput setaf 6) Installation de NCURSES_UTILS "
@@ -31,3 +31,4 @@ echo ""
 figlet -f small Terminer!
 echo "$(tput setaf 10) Installation reussie [Terminer!]"
 echo "$(tput setaf 3) Abonnez vous a ma chaine youtube Faster axel.."
+xdg-open https://www.youtube.com/c/FASTERAXEL?sub_confirmation=1
