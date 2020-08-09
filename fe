@@ -1,0 +1,341 @@
+#!usr/bin/python2
+#coding=utf-8
+####################################################################################################
+#Auteur: Faxel
+#Contact: t.me/Faxelh
+# Le credit pour ce code va a Mr Faxel
+# Vous pouvez recoder , mais toute fois mentionner le nom de l'auteur merci boss.
+####################################################################################################
+# -Effacer le systeme en question-#
+import os
+def cls():
+    os.system('clear')
+####################################################################################################
+raw_input = input
+####################################################################################################
+# -Importation des modules-#
+try:
+    import os,time,sys,fileinput,base64,datetime,random,requests,mechanize
+    import os,sys,time,datetime,random,hashlib,re,threading,json,requests
+    from datetime import datetime
+    from tqdm import tqdm
+    from time import sleep
+    print("\033[1;92m Exigences disponibles")
+    cls()
+except:
+    cls()
+    print("\033[1;95m Configuration requise pour l'installation....\033[1;97m")
+    os.system('pip3 install requests')
+    os.system('pip3 install mechanize')
+    os.system('pip3 install tqdm')
+    os.system('pip3 install mechanize')
+    os.system('pip3 install mechanize')
+    cls()
+####################################################################################################
+####################################################################################################
+# -Automatisation-#
+def Street(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.009)
+####################################################################################################		
+def auto(e):
+	for z in e + '\n':
+		sys.stdout.write(z)
+		sys.stdout.flush()
+		time.sleep(0.009)	
+####################################################################################################
+def hacker():
+    mr = [
+     '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*\n']
+    for o in mr:
+        print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m] \x1b[1;92mChargement en cours [38;5;221m  ' + o,
+        sys.stdout.flush()
+        time.sleep(0.15)
+####################################################################################################	
+def McTony():
+    mr = [
+     '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*', '      ', '*Faxel*', '      ', '*Faxel*', '      ', '*McTony*\n']
+    for o in mr:
+        print '\r\x1b[1;97m[\x1b[1;32m●●\x1b[1;97m]   [38;5;221m  ' + o,
+        sys.stdout.flush()
+        time.sleep(0.15)	
+####################################################################################################
+logo =("""\033[1;96m██╗███╗   ██╗███████╗████████╗ █████╗\033[1;97m   ██╗   ██╗██╗██████╗ \n\033[1;96m██║████╗  ██║██╔════╝╚══██╔══╝██╔══██╗\033[1;97m  ██║   ██║██║██╔══██╗\n\033[1;96m██║██╔██╗ ██║███████╗   ██║   ███████║\033[1;97m  ██║   ██║██║██║  ██║\n\033[1;96m██║██║╚██╗██║╚════██║   ██║   ██╔══██║\033[1;97m  ╚██╗ ██╔╝██║██║  ██║\n\033[1;96m██║██║ ╚████║███████║   ██║   ██║  ██║\033[1;97m   ╚████╔╝ ██║██████╔╝\n\033[1;91m╚═╝╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝  ╚═╝\033[1;91m    ╚═══╝  ╚═╝╚═════╝  \n[38;5;214m╔═╗╔═\033[1;97m╗═╗ ╦\033[1;92m╔═╗╦  \n[38;5;214m╠╣ ╠═\033[1;97m╣╔╩╦╝\033[1;92m║╣ ║  \n[38;5;214m╚  ╩ \033[1;97m╩╩ ╚═\033[1;92m╚═╝╩═╝[38;5;214m 🇨🇮 \033[1;97mI'm the person whom you can never judge.\033[1;92m 🇨🇮 """)
+####################################################################################################
+#####Logo de verification robotique######
+logo2 =("""\033[1;97m          ╔═══════════════════════════╗ \n\033[1;97m          ║[38;5;214m█████████\033[1;97m███████████\033[1;92m███████100%\033[1;97m║\n\033[1;97m          ╚═══════════════════════════╝\n""")
+####################################################################################################
+cls()
+####################################################################################################
+Street("\033[1;96mVeuillez patientez le temps de verification robotique?")
+auto (logo2)
+auto("\033[1;96mTerminer\033[1;91m. \033[1;92mVerification reussie\033[1;97m, vous etes bien humain\n")
+print("[38;5;214m🇨🇮\033[1;97m I'm the person whom you can never judge. \033[1;92m 🇨🇮\n")
+raw_input("\t\033[1;91m[[38;5;24mSuivant\033[1;91m]")
+####################################################################################################
+#J'ai obtenu ça de https://stackoverflow.com/a/24460981
+####################################################################################################
+def Identifiant():
+	cls()
+	print"[38;5;214m<══════════════════════════════════>"
+        print"\033[1;31m[\033[1;37m**\033[1;31m] \033[1;96m Auteur \033[1;31m:[38;5;112m* \033[48;5;0;38;5;197mMr [38;5;128mFaxel[38;5;112m * \033[1;31m[\033[1;37m**\033[1;31m] [38;5;18m"
+        print"[38;5;214m🇨🇮\033[1;97m is the person whom you can never judge.\033[1;92m 🇨🇮"
+	kouadio = raw_input("\033[1;31m[\033[1;37m**\033[1;31m]  [38;5;214mSaisissez votre nom\033[1;91m  : [38;5;108m")    
+        print"[38;5;214m<══════════════════════════════════>"
+	if kouadio =="":
+		print"\033[1;31m[\033[1;37m!\033[1;31m] [38;5;185mChamp obligatoire"
+		time.sleep(1)
+		Identifiant()
+	else:
+		cls()
+                print (38 * '\x1b[1;97m\xe2\x95\x90')
+                print ("\033[48;5;0;38;5;197m╔╗F╦╔═╗╔╗╔╦FF╦╔═╗╔╗╔╦F╦╔═╗\n[38;5;251m╠╩╗║║╣F║║║╚╗╔╝║╣F║║║║F║║╣F\n[38;5;110m╚═╝╩╚═╝╝╚╝F╚╝F╚═╝╝╚╝╚═╝╚═╝[38;5;227m\n" + kouadio) 
+                print ("\033[48;5;0;38;5;197mMr[38;5;241m[38;5;114m Faxel\033[1;37m vous dit d\'utiliser ce script à bon escient! [38;5;227m" + kouadio) 
+                print (38 * '\x1b[1;97m\xe2\x95\x90')
+                print("")
+                auto("\033[1;92mInfo\033[1;91m :\033[1;97mLe crédit pour ce code va à[38;5;245m Mr [38;5;185mFaxel")
+                Street("""\033[1;92mNote\033[1;91m :\033[1;97mVous pouvez recoder, Mais n'oubliez pas de mentionner l'auteur.	
+\033[1;92mInspiration\033[1;91m :\033[1;97mProgressez chaque jour avec audace vers vos\nrêves, refusez les coups d'arrêt et rien ne pourra vous arrêter!!!
+\033[1;93m----------\033[1;91m#\033[1;97mL'AVENIR C'EST MAINTENANT\033[1;91m#\033[1;93m---------""")
+                Street("\033[1;92mUne pensée\033[1;97m a\033[1;91m <[38;5;112mZachary\033[1;97m,[38;5;112mMec\033[1;97m,[38;5;112mMael\033[1;97m,[38;5;112mDosso\033[1;97m,[38;5;112mSeverin\033[1;97m,[38;5;112mAnge Akobe,[38;5;112mMiss\033[1;96m Syntiche\033[1;91m>") 
+                print("[38;5;214m🇨🇮\033[1;97m I'm the person whom you can never judge. \033[1;92m 🇨🇮\n")
+	        raw_input("\n\t\033[1;91m[ [38;5;24mSuivant \033[1;91m]")
+		Securiter()
+####################################################################################################	
+def Securiter():
+	cls()
+	print("[38;5;214m<═════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mFaxel[38;5;214m═════════════════>")
+        Nu = "Faxel"
+        print("")
+        mdp = "08127934"
+        loop = 'true'
+        while (loop == 'true'):
+            Nomu = raw_input("\033[1;91m[\033[1;97m**\033[1;91m] \x1b[1;97mNom d'utilisateur de l'outil \x1b[1;91m»»»» [48;5;0;38;5;197m")
+            if (Nomu == Nu):
+    	        md = raw_input("\033[1;91m[\033[1;97m++\033[1;91m] \x1b[1;97mMot de passe de l'outil      \x1b[1;91m»»»» [38;5;245m")
+                if (md == mdp):	
+		    print("\t[38;5;214m🇨🇮\033[1;97m I'm the person whom you can never judge. \033[1;92m 🇨🇮")
+	            print("[38;5;214m<═════════════════\033[1;97mConnexion a[38;5;245m Mr \033[48;5;0;38;5;197mFaxel[38;5;214m═════════════════>")
+	            McTony()
+	            print("")
+                    print("\033[1;91m[\033[1;92m●●\033[1;91m] \033[1;97mConnecté en tant que \033[1;96m"  +  Nomu )#Dev:Faxel
+	            time.sleep(1)
+                    loop = 'false'
+		    os.system('xdg-open https://t.me/Faxelh')
+		    cls()
+		    verifie()			
+	        else:
+                    print ("\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;93mMot de passe incorrect!!")
+                    os.system('xdg-open https://www.youtube.com/c/FASTERAXEL?sub_confirmation=1')')
+	            Securiter()
+            else:
+                 print ("\033[1;91m[\033[1;97mxx\033[1;91m] \033[1;94mNom d'utilisateur incorrect!!")
+                 os.system('xdg-open https://t.me/Faxelh')
+		 Securiter()
+####################################################################################################
+def connection(url='http://www.google.com/', timeout=5):
+    try:
+        verficateur_connexion = requests.get(url, timeout=timeout)
+        verficateur_connexion.raise_for_status()
+	Street("\033[1;91m[\033[1;92m●●\033[1;91m]          \033[1;97m\033[1;92mVerification de la connexion      \033[1;91m[\033[1;92m●●\033[1;91m]")
+        auto("\t\t\033[1;92mVous êtes connecté à Internet\n")
+	raw_input("\t\t\033[1;91m[[38;5;24mSuivant\033[1;91m]")
+        return True
+    except requests.HTTPError as e:
+        print("La vérification de la connexion Internet a échoué, code d'état {0}.".format(e.response.status_code))
+    except requests.ConnectionError:
+        auto("\t\t\033[1;91mVous n'êtes pas connecté à Internet.")
+    return False
+####################################################################################################
+def verifie():
+	if connection() == True:
+		menu()
+	else:
+               sys.exit()
+####################################################################################################	
+def menu():
+     try:
+        while True:                                                                      
+            cls()
+	    print(logo)
+            print("\033[1;97m╔"+27*"═"+1*"═╗")
+	    print("\033[1;97m║ \033[1;91m[\033[1;96m1.\033[1;91m][38;5;212m Photo de proile \033[1;97m      ║")
+	    print("\033[1;97m║ \033[1;91m[\033[1;96m2.\033[1;91m][38;5;112m Image Instagram \033[1;97m      ║")
+	    print("\033[1;97m║ \033[1;91m[\033[1;96m3.\033[1;91m][38;5;128m Video Instagram \033[1;97m      ║")
+	    print("\033[1;97m║ \033[1;91m[\033[1;96m4.\033[1;91m][38;5;108m Mise à jour     \033[1;97m      ║")
+            print("\033[1;97m║ \033[1;91m[\033[1;96mQ.\033[1;91m][48;5;0;38;5;198m Quitter         \033[1;97m      ║")
+	    print("\033[1;97m╚"+27*"═"+1*"═╝") 
+            print("\033[1;97m║")
+            choix = raw_input("\033[1;97m╚═\033[1;31m▶[38;5;245m Mr [38;5;221mFaxel \033[1;31m▶▶▶ \033[1;33m")
+            if choix =="1"  or choix =="01":
+                photo_profile_tel()
+            elif choix =="2"  or choix =="02":
+                telecharger_image()
+            elif choix =="3"  or choix =="03":
+                telecharger_video()
+	    elif choix =="4"  or choix =="04":
+		mise_a_jour()
+            elif choix =="q"  or choix =="Q":
+                sys.exit()
+            else:
+		raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+                menu()
+     except(KeyboardInterrupt):
+        print("\n\t\033[1;91mProgramme Interrompu")
+        menu()
+####################################################################################################	
+def telecharger_image():
+    cls()
+    print(logo)
+    url = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m]\033[1;97m Veuillez saisir l'URL de l'image\033[1;91m : \033[1;93m")
+    nom_fichier = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m] \033[1;97mEnregistrer sous le nom de\033[1;91m : \033[1;95m")
+    x = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com', url)
+    try:
+        if x:
+            demande_image = requests.get(url)
+            src = demande_image.content.decode('utf-8')
+            verifier_type = re.search(r'<meta name="medium" content=[\'"]?([^\'" >]+)', src)
+            verifier_type_fichier = verifier_type.group()
+            final = re.sub('<meta name="medium" content="', '', verifier_type_fichier)
+            if final == "image":
+                Street("\n\033[1;96mTéléchargement de l'image en cours...\033[1;97m\n")
+                extrait_lien_image = re.search(r'meta property="og:image" content=[\'"]?([^\'" >]+)', src)
+                image_lien = extrait_lien_image.group()
+                final = re.sub('meta property="og:image" content="', '', image_lien)
+                _response = requests.get(final).content
+                taille_fichier_demander = requests.get(final, stream=True)
+                taille_fichier = int(taille_fichier_demander.headers['Content-Length'])
+                taille_qualite = 1024 
+                #temps_fichier = datetime.strftime(datetime.now(), '%Y-%m-%d-%H-%M-%S')
+                t=tqdm(total=taille_fichier, unit='B', unit_scale=True, desc=nom_fichier, ascii=True)
+                with open(nom_fichier + '.jpg', 'wb') as f:
+                    for data in taille_fichier_demander.iter_content(taille_qualite):
+                        t.update(len(data))
+                        f.write(data)
+                t.close()
+                print("\033[1;92mImage téléchargée avec succès")
+		raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+		menu()
+		
+	    else:
+                print("\033[1;91mL'URL saisie n'est pas une URL d'instagram")
+		raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+		menu()
+		
+    except AttributeError:
+          print("\n\033[1;91mURL Inconnue")	
+	  menu()
+####################################################################################################		
+def telecharger_video():
+    cls()
+    print(logo)
+    url = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m]\033[1;97m Veuillez saisir l'URL la video\033[1;91m : \033[1;93m")
+    nom_fichier = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m] \033[1;97mEnregistrer sous le nom de\033[1;91m : \033[1;95m")
+    x = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com', url)
+    try:
+        if x:
+            demande_image = requests.get(url)
+            src = demande_image.content.decode('utf-8')
+            verifier_type = re.search(r'<meta name="medium" content=[\'"]?([^\'" >]+)', src)
+            verifier_type_fichier = verifier_type.group()
+            final = re.sub('<meta name="medium" content="', '', verifier_type_fichier)
+            if final == "video":
+                  Street("\n\033[1;96mTéléchargement de la vidéo en qualité HD en cours...\033[1;97m\n")
+                  extrait_lien_video = re.search(r'meta property="og:video" content=[\'"]?([^\'" >]+)', src)
+                  video_lien = extrait_lien_video.group()
+                  final = re.sub('meta property="og:video" content="', '', video_lien)
+                  _response = requests.get(final).content
+                  taille_fichier_demander = requests.get(final, stream=True)
+                  taille_fichier = int(taille_fichier_demander.headers['Content-Length'])
+                  taille_qualite = 1024 
+                  t=tqdm(total=taille_fichier, unit='B', unit_scale=True, desc=nom_fichier, ascii=True)
+                  with open(nom_fichier + '.mp4', 'wb') as f:
+                      for data in taille_fichier_demander.iter_content(taille_qualite):
+                          t.update(len(data))
+                          f.write(data)
+                  t.close()
+                  print("\033[1;92mVidéo téléchargée avec succès")
+		  raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+                  menu()
+	    else:
+                 print("\033[1;91mL'URL saisie n'est pas une URL d'instagram")
+		 raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+		 menu()
+    except AttributeError:
+          print("\n\033[1;91mURL Inconnue")
+	  menu()
+####################################################################################################	
+def photo_profile_tel():
+    cls()
+    print(logo)
+    url = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m] Veuillez saisir l'URL du profil\033[1;91m : \033[1;93m")
+    nom_fichier = raw_input("\n\033[1;91m[\033[1;36m▶\033[1;91m] \033[1;97mEnregistrer sous le nom de\033[1;91m : \033[1;95m")
+    x = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com', url)   
+    if x:
+        Verifie_url1 = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com[/].*\?hl=[a-z-]{2,5}', url)
+        Verifie_url2 = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com$|^(https:)[/][/]www.([^/]+[.])*instagram.com/$', url)
+        Verifie_url3 = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com[/][a-zA-Z0-9_]{1,}$', url)
+        Verifie_url4 = re.match(r'^(https:)[/][/]www.([^/]+[.])*instagram.com[/][a-zA-Z0-9_]{1,}[/]$', url)
+        if Verifie_url3:
+            final_url = url + '/?__a=1'
+        if Verifie_url4:
+            final_url = url + '?__a=1'
+        if Verifie_url2:
+            #final_url = 
+	    print("\033[1;91mVeuillez saisir une URL liée à un profil")
+            exit()
+        if Verifie_url1:
+            alpha = Verifie_url1.group()
+            final_url = re.sub('\\?hl=[a-z-]{2,5}', '?__a=1', alpha)            
+    try:
+        if Verifie_url3 or Verifie_url4 or Verifie_url2 or Verifie_url1:
+            req = requests.get(final_url)
+            obtenir_status = requests.get(final_url).status_code
+            obtenir_contenu = req.content.decode('utf-8')
+            if obtenir_status == 200:
+                Street("\n\033[1;96mTéléchargement de la photo de profil en cours...\033[1;97m\n")
+                recherche_photo_profile = re.search(r'profile_pic_url_hd\":\"([^\'\" >]+)', obtenir_contenu)
+                photo_profile_lien = recherche_photo_profile.group()
+                photo_profile_final = re.sub('profile_pic_url_hd":"', '', photo_profile_lien)
+                taille_fichier_demander = requests.get(photo_profile_final, stream=True)
+                taille_fichier = int(taille_fichier_demander.headers['Content-Length'])
+                taille_qualite = 1024 
+                #Temps_fichier = datetime.strftime(datetime.now(), '%Y-%m-%d-%H-%M-%S')
+                t=tqdm(total=taille_fichier, unit='B', unit_scale=True, desc=nom_fichier, ascii=True)
+                with open(nom_fichier + '.jpg', 'wb') as f:
+                    for data in taille_fichier_demander.iter_content(taille_qualite):
+                        t.update(len(data))
+                        f.write(data)
+                t.close()
+                print("\033[1;92mPhoto de profil téléchargée avec succès")
+                raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+                menu()
+	    else:
+                 print("\033[1;91mL'URL saisie n'est pas une URL d'instagram")
+		 raw_input("\t\033[1;91m[[38;5;24mRetour\033[1;91m]")
+                 menu()
+    except Exception:
+        print("\n\t\033[1;91mErreur")
+	menu()
+####################################################################################################	
+def mise_a_jour():
+        cls()
+        print(logo)		
+        h = raw_input("\033[1;91m[\033[1;97m??\033[1;91m] \033[1;97mVous voulez-vous effectuer a une mise a jour du script ? \033[1;94m[\033[1;92mo/\033[1;91mn\033[1;94m]\033[1;91m : \033[1;97m ")
+        if h =="n" or h =="N":
+	      menu()
+        elif h =="o" or h =="O":
+	      McTony()
+	      cls()
+              os.system('git pull origin master')
+	      print("")
+	      raw_input('\n\033[1;91m[\033[1;97mRetour\033[1;91m]')
+	      menu()
+        else:
+	      menu()
+####################################################################################################
+if __name__ == "__main__":
+       Identifiant()
+####################################################################################################
