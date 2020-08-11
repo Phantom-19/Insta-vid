@@ -7,6 +7,8 @@ echo "$(tput setaf 3) Installation de NMAP......."
 echo " "
 apt-get install nmap
 echo " "
+apt-get install tsu
+echo " "
 echo "$(tput setaf 6)Installation de FIGLET......."
 echo " "
 apt-get install figlet
